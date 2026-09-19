@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the minimum attendance requirement?",
+    "type": "direct",
+    "expected_behavior": "Answer that students must maintain at least 75 percent attendance in each course, unless an approved institutional exception applies."
+  },
+  {
+    "question": "How many classes am I expected to attend?",
+    "type": "paraphrase",
+    "expected_behavior": "Explain the attendance requirement using the information provided in the document."
+  },
+  {
+    "question": "What are the placement eligibility requirements?",
+    "type": "direct",
+    "expected_behavior": "Retrieve the placement eligibility section and mention academic performance, active backlogs, attendance, and placement-office rules."
+  },
+  {
+    "question": "Give information about tomorrow's weather.",
+    "type": "unanswerable",
+    "expected_behavior": "Abstain because weather information is not contained in the knowledge base."
+  },
+  {
+    "question": "What is the requirement?",
+    "type": "ambiguous",
+    "expected_behavior": "Use the available document context and explain the most relevant requirement, while acknowledging ambiguity if necessary."
+  }
+]

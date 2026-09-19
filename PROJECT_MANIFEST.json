@@ -1,0 +1,13 @@
+{
+  "project": "KnowFlow AI Pro",
+  "assignment": "Option 1 \u2014 Mini AI Knowledge Assistant (RAG)",
+  "python_files": [
+    "generate_sample_pdf.py",
+    "app.py",
+    "src/retrieval.py",
+    "src/__init__.py",
+    "src/llm.py",
+    "src/ingestion.py"
+  ],
+  "syntax_check": "passed"
+}
